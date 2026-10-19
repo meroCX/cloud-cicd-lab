@@ -3,7 +3,7 @@ from flask import Flask, redirect, render_template_string, request, url_for
 app = Flask(__name__)
 
 BOARD_STATE = {
-    "name": "Engineering Workspace",
+    "name": "Engineering-Workspace",
     "lists": [
         {
             "id": "todo",
